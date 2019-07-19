@@ -1,0 +1,13 @@
+<!DOCTYPE hjs>
+<html>
+  <head>
+      <meta content="text/javascript" charset="utf-8"/>
+      <title>Index</title>
+  </head>
+  <body>
+    <h1>Big heading things</h1>
+    <ul id="levels"></ul>
+    <script src="/js/jquery/dist/jquery.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

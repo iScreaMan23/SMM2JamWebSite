@@ -1,0 +1,29 @@
+{
+  "name": "smm2jamwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iScreaMan23/SMM2JamWebSite.git"
+  },
+  "author": "iscreaman23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iScreaMan23/SMM2JamWebSite/issues"
+  },
+  "homepage": "https://github.com/iScreaMan23/SMM2JamWebSite#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
